@@ -18,3 +18,6 @@ Output:
 For each test case, print “x hours y minutes and z seconds”, the value of x, y, z is described above.
 
 ## problem 3
+Write a program to display the following “*” pattern on the screen.
+
+## problem 4
