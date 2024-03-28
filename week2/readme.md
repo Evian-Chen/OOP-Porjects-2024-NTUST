@@ -38,5 +38,17 @@ Output:
 The coded message is obtained by reading down the columns going left to right.
 
 ## problem 4
+You are an IT employee in a company. Your manager requests you to print out N employee’s information, and you need to make sure the result remains clean. Each employee has three attributes: Name, Salary and Bonus. 
+
+Input:
+The input contains several cases, each of them as described below.
+The first line of input contains an integer N (10^6 >= N > 0), which represents the number of employees. Each of the next N lines indicates the information of each employee with three attributes: Name, Salary (between 10^9 ~ 0) and Award (between 10^9 ~ 0). Each attribute will be separated by one space.
+
+*The name attribute do not contain spaces.
+
+The program should end after reading EOF.
+
+Output:
+For each set of input data (from the previous N to the next N), please make sure the width of each column is the same as the attribute with the longest width in each column. Use the symbol "|" to separate each column and align the content to the right. Note that for numeric attributes (Salary, Bonus), the content should be indented by two additional spaces.
 
 ## problem 5
