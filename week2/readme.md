@@ -29,6 +29,13 @@ Output:
 Output the names and scores of top three players.
 
 ## problem 3
+The input messages of each line are English characters without spaces. Try to put the characters into a n*n square. Note that (n-1)^2 < message length <= n^2.
+
+Input:
+Input a string without whitespace.
+
+Output:
+The coded message is obtained by reading down the columns going left to right.
 
 ## problem 4
 
