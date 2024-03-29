@@ -50,5 +50,17 @@ Output:
 Each line is outputted according to the requirements of the topic.
 
 ## problem 4
+Assume that the maximum integer of a k-bit CPU can process is (2^k) – 1. Every 10 years, k will grow by a multiple of 2. Assume that your company released a 4-bit CPU in 1900, which can store 15 as the largest integer. (8-bit will be released in 1910, and 1920 will be 16-bit, and so on.)
+ 
+There is a given year Y, find the maximum positive integer N where N! is within the CPU calculation range of the current year.
+
+Test time limit: 5.0 seconds
+
+Input:
+ Each line has a positive integer Y ( 2200 >= Y >= 1900 ).
+The input method is unlimited input until EOF is read.
+
+Output:
+Output N, so that N! is within the CPU calculation range of the current year.
 
 ## problem 5
