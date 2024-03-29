@@ -57,4 +57,19 @@ No inputs for this exercise.
 Output:
 The result of executing your program with the given main function.
 
-## problem 4
+## problem 5
+Collatz conjecture, which also known as 3N+1 conjecture, is a conjecture in mathematics that concerns a sequence defined as follows:
+(1) Input N
+(2) If N equals 1, end calculation.
+(3) {█(&N⁄2  ,　　 　 if N is an even number @&N*3+1,　 if N is an odd number)┤
+(4) Go to Step 2 until N equals 1.
+All the positive numbers that smaller than 1,000,000 will finally equals 1 by using this method. You need to find out the cycle length of a number. (Include the number itself.)
+For example, if 22 is inputted,
+the result will be: 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1. (16 numbers)
+Hence the cycle length of 22 is 16.
+Input:
+Enter a pair of positive integers i and j that are both smaller than 1,000,000, separated by space. This program allows multiple test. Users can enter until read EOF.
+
+Output:
+Find the maximum cycle length that can be produced by any numbers between i and j (including i and j). Print i, j and the maximum cycle length, separate by space.
+
