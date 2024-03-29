@@ -34,6 +34,20 @@ the program should output
 3 grade(s) of 5
 
 ## problem 3
+There is a given arbitrary number X(double), a positive integer M, a positive integer N, and a character C. Please output results with following steps:
+1.	Reformat the decimal part of X (excluding the decimal point) to N characters. The characters over N digits must be unconditionally discarded. If the decimal part of X is less than N digits, please make up with 0.
+2.	After step 1, if X (including negative and decimal points) is still less than M characters, please fill in with character C in front of the number. The amount of C and the number itself should meet exactly M characters.
+Input:
+Each line represents a group of X, M, N, and C. The four inputs are separated by spaces.
+	X: The target number that need to be formed.
+	M: The total length of the output. (Including negative sign and decimal point.)
+	N: Number of reserved digits of the decimal part.
+	C: Letter to be filled when the length is not enough. (less than M digits)
+The program continues to ask for input, and ends if EOF is read.
+Please note that C may be a space.
+
+Output:
+Each line is outputted according to the requirements of the topic.
 
 ## problem 4
 
