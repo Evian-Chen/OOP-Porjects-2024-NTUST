@@ -53,3 +53,36 @@ Input:
 The main() function in your submission will be replaced when judging.
 You can use the main() function in “Other Notes” to test your program.
 The input is a series of integers or strings corresponding to the main method.
+
+## problem 3
+Write a program that records at most 10 student data by structures. There are four functions for user to use:
+(1)	insert (up to 10 records), (2) search, (3) delete, (4) print.
+
+A record of a student is defined as follow:
+typedef struct {
+char firstName[25];	
+char lastName[30];
+char phone[15];
+} StRec;
+Input:
+There are four kinds of command formats (insert, delete search and print). Except the “print” command, the other three command lines contain firstName, lastName and phone. Use space to separate each data. The print command only needs to enter “print”.
+Format of four commands:
+(1) insert + firstName + lastName + phone
+(E.g. insert Harry Potter 0987654321)
+(2) delete + firstName + lastName + phone
+(E.g. delete Harry Potter 0987654321)
+(3) search + firstName + lastName + phone
+(E.g. search Harry Potter 0987654321)
+(4) print
+(firstName <= 25 letters, lastName <= 30 letters, phone <= 15 numbers)
+  User can keep entering commands until reading EOF.
+Output:
+Users need to check for the input format accuracy, including:
+(1)	If the length of firstName or lastName or phone is too long.
+(2)	The string that inputted was not one of the four commands.
+(3)	If phone is not a number.
+If input meets any of the above conditions, print “Input Error” and re-enter a command.
+When insert is called, insert the record after last record. If there are already 10 records or the record already exists, print “Insert Error”.
+When delete is called, find the record and delete it. If it does not exist, print “Delete Error”.
+When search is called, find the record and print which index the record is in. If it does not exist, print “Search Error”.
+When print is called, print all three data of records and separate them by space (e.g. Harry Potter 0987654321). If there are no records, print “Print Error”.
