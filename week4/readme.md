@@ -33,3 +33,28 @@ Output:
 Output the greatest common divisor of two positive integers a and b.
 
 ## problem 4
+Define a class named BankAccount to simulate bank deposits.
+
+	The class BankAccount has two variables: 
+static total(int): store the total money amount of all accounts in the bank.
+balance(int): store the money amount of this account.
+
+	The class BankAccount has two constructors:
+	BankAccount(): construct a BankAccount where the balance is 0. 
+	BankAccount (int input): construct a BankAccount where the balance is input. 
+
+	You should implement the following functions:
+	void withdraw (int output): withdraw money in the bank with the value of output.
+	void save(int input): save money in the bank with the value of input.
+	int getBalance(): return the current balance of this account.
+	int getAllMoneyInBank (): return the value of the total money amount in the bank.
+
+Input:
+The main() function in your submission will be replaced when judging.
+You can use the main() function in “Other Notes” to test your program.
+No inputs for this exercise.
+
+Output:
+The result of executing your program with the given main function.
+
+## problem 4
