@@ -24,3 +24,12 @@ Output:
 As following sample.
 
 ## problem 3
+Please write a program and use the recursive function GCD(...) (abbreviation for Greatest Common Divisor) to find the greatest common divisor of two positive integers.
+
+Input:
+Input two positive integers a and b (a, b <= 2147483647).
+
+Output:
+Output the greatest common divisor of two positive integers a and b.
+
+## problem 4
