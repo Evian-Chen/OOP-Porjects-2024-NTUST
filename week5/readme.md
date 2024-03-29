@@ -86,3 +86,7 @@ When insert is called, insert the record after last record. If there are already
 When delete is called, find the record and delete it. If it does not exist, print “Delete Error”.
 When search is called, find the record and print which index the record is in. If it does not exist, print “Search Error”.
 When print is called, print all three data of records and separate them by space (e.g. Harry Potter 0987654321). If there are no records, print “Print Error”.
+
+## problem 4
+A Sudoku is a 9x9 grid that is completed when every 3x3 square, row and column consist of the numbers 1-9.
+For this task, you will be given a completed 9x9 square, Create a function that checks to make sure each 3x3 square contains each number from 1-9 exactly once, and there are no duplicates. Furthermore, each row and each column doesn’t contain duplicates with no numbers outside the range 1~9.
